@@ -1,0 +1,73 @@
+body {margin: 0; padding: 0; min-width: 100%!important;}
+.button {text-align: center; font-size: 14px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px;}
+.button a {color: #000000; text-decoration: none;}
+.content {width: 600px; max-width: 600px;}
+@media only screen and (min-device-width: 601px) {
+  .content {width: 600px!important;}
+  .col395 {width: 395px!important;}
+  .col300 {width: 290px!important;}
+}
+@media only screen and (max-width: 550px), screen and (max-device-width: 550px) {
+  body[yahoo] .buttonwrapper {background-color: transparent!important;}
+  body[yahoo] .button a {background-color: #c1cd23; padding: 15px 15px 13px!important; display: block!important; border-radius: 4px;}
+  body[yahoo] .unsubscribe {display: block; margin-top: 10px; padding: 10px 50px; background: #ffffff; border-radius: 4px; text-decoration: none!important; font-weight: bold;}
+  body[yahoo] .hide {display: none!important;}
+}
+
+div, p{
+  color:#6e6e6e;
+  font-family:Helvetica;
+  font-size:14px;
+  text-align:left;
+  line-height:125%;
+  margin: 0px;
+}
+
+h1{
+  color:#0067b3;
+  font-family:Helvetica;
+  font-size:20px;
+  font-style:normal;
+  font-weight:bold;
+  line-height:125%;
+  letter-spacing:normal;
+  text-align:center;
+}
+
+h2{
+  color:#0067b3;
+  font-family:Helvetica;
+  font-size:18px;
+  font-style:normal;
+  font-weight:bold;
+  line-height:125%;
+  letter-spacing:normal;
+  text-align:center;
+}
+
+h3{
+  color:#0067b3;
+  font-family:Helvetica;
+  font-size:16px;
+  font-style:normal;
+  font-weight:bold;
+  line-height:125%;
+  letter-spacing:normal;
+  text-align:center;
+}
+h4{
+  color:#0067b3;
+  font-family:Helvetica;
+  font-size:14px;
+  font-style:normal;
+  font-weight:bold;
+  line-height:125%;
+  letter-spacing:normal;
+  text-align:center;
+}
+
+a{
+  color:#0067b3;
+  text-decoration: none;
+  font-weight: bold;
+}
